@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #34b7a7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #51cdbe;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+#main {
+  margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+  #main {
+    margin-top: 30px;
+  }
+}
+
+/* Header*/
+.titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 550ms ease-in-out
+}
+.titre :hover{
+    transform: scale(1.20);
+}
+
+
+.logo {
+  display: flex;
+}
+
+.titre_principal {
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  color: #51cdbe;
+    top: 92px;
+}
