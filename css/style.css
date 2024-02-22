@@ -4,16 +4,19 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #c3fdee;
 }
 
 a {
   color: #34b7a7;
   text-decoration: none;
+  transition: transform 300ms ease-in-out;
 }
 
 a:hover {
-  color: #51cdbe;
+  color: #453cbf;
   text-decoration: none;
+  transform: scale(1.25);
 }
 
 h1,
@@ -40,12 +43,11 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 550ms ease-in-out
+  transition: transform 550ms ease-in-out;
 }
-.titre :hover{
-    transform: scale(1.20);
+.titre :hover {
+  transform: scale(1.2);
 }
-
 
 .logo {
   display: flex;
@@ -56,5 +58,28 @@ h6 {
   z-index: 2;
   position: absolute;
   color: #51cdbe;
-    top: 92px;
+  top: 92px;
+  transition: transform 550ms ease-in-out;
+}
+.titre_principal :hover {
+  transform: scale(1.2);
+}
+
+/* les boutons et liens de navigation de l'entête*/
+
+.button_nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  position: relative;
+  bottom: 50px;
+}
+.button_header-nav{
+  color: rgb(34, 31, 31);
+  border: #444444 2px solid;
+  border-radius: 30%;
+  padding: 1%;
+  background-color: #e294e7;
+  font-weight: 500;
 }
