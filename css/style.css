@@ -73,7 +73,8 @@ h6 {
   align-items: center;
   gap: 2%;
   position: relative;
-  bottom: 50px;
+  bottom: 60px;
+  z-index: 2;
 }
 .button_header-nav{
   color: rgb(34, 31, 31);
@@ -83,3 +84,13 @@ h6 {
   background-color: #e294e7;
   font-weight: 500;
 }
+.navi_img img{
+  width: 100%;
+  height: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+ 
