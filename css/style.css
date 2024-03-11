@@ -67,7 +67,7 @@ h6 {
 
 /* les boutons et liens de navigation de l'entête*/
 
-.button_nav{
+.button_nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +76,7 @@ h6 {
   bottom: 60px;
   z-index: 2;
 }
-.button_header-nav{
+.button_header-nav {
   color: rgb(34, 31, 31);
   border: #444444 2px solid;
   border-radius: 30%;
@@ -84,7 +84,7 @@ h6 {
   background-color: #e294e7;
   font-weight: 500;
 }
-.navi_img img{
+.navi_img img {
   width: 100%;
   height: 270px;
   display: flex;
@@ -93,4 +93,3 @@ h6 {
   justify-content: center;
   align-items: center;
 }
- 
