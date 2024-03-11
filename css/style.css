@@ -16,7 +16,7 @@ a {
 a:hover {
   color: #453cbf;
   text-decoration: none;
-  transform: scale(1.25);
+  transform: scale(1.2);
 }
 
 h1,
@@ -68,21 +68,29 @@ h6 {
 /* les boutons et liens de navigation de l'entête*/
 
 .button_nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   justify-content: center;
   align-items: center;
-  gap: 2%;
+  gap: 5%;
   position: relative;
-  bottom: 60px;
+  bottom: 220px;
   z-index: 2;
 }
 .button_header-nav {
+  display: flex;
+  justify-content: center;
   color: rgb(34, 31, 31);
   border: #444444 2px solid;
   border-radius: 30%;
-  padding: 1%;
+  width: 90%;
+  height: 30px;
+  margin: auto;
+  padding: 1.5%;
   background-color: #e294e7;
   font-weight: 500;
+  align-items: center;
 }
 /* Image de la bannière qui se trouve sur la navigation*/
 .navi_img img {
