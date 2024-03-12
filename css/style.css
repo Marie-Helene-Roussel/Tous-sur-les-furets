@@ -51,6 +51,7 @@ h6 {
 
 .logo {
   display: flex;
+  height: 340px;
 }
 
 .titre_principal {
@@ -92,6 +93,10 @@ h6 {
   font-weight: 500;
   align-items: center;
 }
+.navi_img {
+  height: 300px;
+}
+
 /* Image de la bannière qui se trouve sur la navigation*/
 .navi_img img {
   width: 100%;
@@ -101,4 +106,42 @@ h6 {
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+
+/* l'introduction du site avec le message de bienvenue*/
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  border: #453cbf 2px solid;
+  border-radius: 10%;
+  background-color: #51cdbe;
+}
+.introduction h2 {
+  font-size: 2.2em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.introduction p {
+  font-size: 1.3em;
+  padding-left: 5%;
+  padding-right: 0.5%;
+}
+
+.pout {
+  padding-bottom: 1%;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+/*Pied de page*/
+footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
