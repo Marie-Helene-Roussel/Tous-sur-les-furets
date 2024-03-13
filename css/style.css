@@ -79,6 +79,7 @@ h6 {
   bottom: 220px;
   z-index: 2;
 }
+
 .button_header-nav {
   display: flex;
   justify-content: center;
@@ -92,20 +93,17 @@ h6 {
   background-color: #e294e7;
   font-weight: 500;
   align-items: center;
-  
 }
 .navi_img {
   height: 300px;
 }
-.button_nav a{
- text-decoration: none;
- font-size: 0.8em;
- text-align: center;
- font-weight: 600;
- text-shadow: 1px 2px 15px rgb(17, 14, 77);
+.button_nav a {
+  text-decoration: none;
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 1px 2px 15px rgb(17, 14, 77);
 }
-
-
 
 /* Image de la bannière qui se trouve sur la navigation*/
 .navi_img img {
@@ -116,7 +114,7 @@ h6 {
   align-content: center;
   justify-content: center;
   align-items: center;
-  opacity:0.95 ;
+  opacity: 0.95;
 }
 
 /* l'introduction du site avec le message de bienvenue*/
@@ -126,18 +124,20 @@ h6 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 75%;
   margin: auto;
-  border: #453cbf 2px solid;
+  border: #8c86df 2px solid;
   border-radius: 10%;
   box-shadow: 6px 6px 25px rgba(0, 39, 72, 0.5);
-  background-color: #51cdbe;
+  background-color: #8adfd5;
 }
 .introduction h2 {
   font-size: 2.2em;
   width: 100%;
   display: flex;
+  text-align: center;
   justify-content: center;
+  box-shadow: 6px 6px 25px rgba(0, 39, 72, 0.5);
 }
 .introduction p {
   font-size: 1.3em;
@@ -149,13 +149,10 @@ h6 {
   padding-bottom: 1%;
   font-size: 2em;
   font-weight: 800;
-  text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 /*page présentation*/
-
-
-
 
 /*Pied de page*/
 footer {
