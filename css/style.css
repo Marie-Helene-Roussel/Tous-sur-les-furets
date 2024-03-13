@@ -78,7 +78,6 @@ h6 {
   position: relative;
   bottom: 220px;
   z-index: 2;
-  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .button_header-nav {
   display: flex;
