@@ -159,6 +159,37 @@ h6 {
 }
 
 /*page présentation*/
+.article{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  padding: 2% 3% 3% 5%;
+  border: #8c86df 2px solid;
+  border-radius: 10%;
+  box-shadow: 6px 6px 25px rgba(0, 39, 72, 0.5);
+  background-color: #8adfd5;
+  text-align: left;
+}
+.article h2{
+  font-size: 3.2em;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 6px 6px 25px rgba(0, 39, 72, 0.5);
+  border-radius: 25px;
+}
+.article p{
+  font-size: 1.3em;
+}
+
+.article img{
+  padding-bottom: 2%;
+  border-radius: 250px;
+}
 
 /*Pied de page*/
 footer {
