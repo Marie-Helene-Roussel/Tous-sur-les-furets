@@ -20,6 +20,10 @@ const slides = [
         "image": "slide5.jpg",
         "tagLine": "Pout Pout est le nom qu'on donne au bruit du fufu!"
     },
+	{
+        "image": "slide6.jpg",
+        "tagLine": "Les fufus sont trop mignons"
+    },
 
 
 ]
