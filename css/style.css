@@ -210,7 +210,73 @@ h6 {
   text-shadow: 6px 7px 14px rgb(86, 81, 81);
 }
 
+/* partie pour mon carrousel*/
+#banner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 470px;
+	position: relative;
+}
+.banner-img {
+	position: absolute;
+	width: 70%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+  padding-bottom: 30px;
+}
+.banner-text {
+  display: flex;
+  font-weight: 800;
+  width: 65%;
+  position: relative; 
+  bottom: 180px;
+  line-height: 66px;
+  color: rgb(170 37 226);
+  border-radius: 10px;
+  padding: 1px 3px;
+  box-shadow: 6px 6px 25px rgba(0, 39, 72, 0.5);
+  background-color: #8adfd5;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  justify-content: center;
+}
 
+
+/* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
+/* Gestion des fleches du carrousel */
+#banner .arrow {
+	position: absolute;
+}
+#banner .arrow_left {
+	position: absolute;
+	left: 10px;
+}
+#banner .arrow_right {
+	position: absolute;
+	right: 10px;
+}
+/* Gestion des points du carrousel */
+.dots {
+	position: absolute;
+	bottom: 40px;
+	display: flex;
+}
+.dot {
+	margin-inline: 5px;
+	width: 13px;
+	height: 13px;
+	background-color: #ffffff00;
+	border: 3px solid #fff;
+	border-radius: 100%;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
+}
+.dot_selected {
+	background-color: #fff;
+}
 
 
 
