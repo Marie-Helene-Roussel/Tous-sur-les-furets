@@ -65,8 +65,8 @@ arrowRight.addEventListener("click", function (slide1) {
 	}
 	const slide = slides[index]
 	const bannerImg = document.querySelector(".banner-img")
-	const chemin = "C:/Users/mhrou/Desktop/OpenClassroom/projets de programmation personnel/Tous-sur-les-furets/img/slides/"
-	bannerImg.src = chemin + slide.image
+    const chemin = "./img/slides/";
+    bannerImg.src = chemin + slide.image
 	const dotSelected = document.querySelector(".dot_selected")
 	dotSelected.className = "dot"
 	const dots = document.querySelectorAll(".dot")
@@ -89,8 +89,7 @@ arrowLeft.addEventListener("click", function (slide1) {
 	}
 	const slide = slides[index]
 	const bannerImg = document.querySelector(".banner-img")
-	const chemin = "C:/Users/mhrou/Desktop/OpenClassroom/projets de programmation personnel/Tous-sur-les-furets/img/slides/"
-	bannerImg.src = chemin + slide.image
+    const chemin = "./img/slides/";	bannerImg.src = chemin + slide.image
 	const dotSelected = document.querySelector(".dot_selected")
 	dotSelected.className = "dot"
 	const dots = document.querySelectorAll(".dot")
